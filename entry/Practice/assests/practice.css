@@ -1,3 +1,7 @@
 body{background-color:aqua;}
 
 h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: darkgoldenrod;font-size: 100px;}
+
+p{color: chocolate;}
+
+.test{font: bold;color: darksalmon;}
