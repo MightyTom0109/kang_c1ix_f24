@@ -1,0 +1,28 @@
+body{
+	background-color: #3c7eff;
+	font-family: Helvetica;
+	margin: 0;
+	animation-name: bgColor-time-change;
+	animation-duration: 20s;
+  
+	animation-fill-mode: forward;
+	
+	animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+}
+
+
+/* @keyframes bg-change {
+  from {background-color: red;}
+  to {background-color: #8952ff;}
+} */
+
+@keyframes bgColor-time-change {
+  0%   {background-color: red;}
+  10%  {background-color: orange;}
+  20%  {background-color: yellow;}
+  30%  {background-color: green;}
+  40%  {background-color: aqua;}
+
+  100% {background-color: blue;}
+}

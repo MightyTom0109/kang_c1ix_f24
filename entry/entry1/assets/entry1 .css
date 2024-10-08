@@ -1,0 +1,30 @@
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(24, 52, 234);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 0 auto;}
+h2{font-family: Arial, Helvetica, sans-serif;color: darkseagreen;font-size: 50px; }
+
+.header{font-family: Arial, Helvetica, sans-serif; color: orangered;font-size: 40px;}
+.game{font-family: fantasy; color: blueviolet; font-size: 75px;text-align: center; padding: 30px;border:30px dotted yellow;}
+.description{font-family: Arial, Helvetica, sans-serif;font-size: 40px;text-align: center;color: blueviolet;}
+.table{padding: 10px 50px 50px 50px;}
+.para{font-family: 'Times New Roman', Times, serif; font-size: 22px;text-wrap: wrap;}
+.comment{font-family: Arial, Helvetica, sans-serif; font-size: 30px;color: darkgoldenrod;}
+.image{display: flex; justify-content: space-around;}
+.text{display: flex; flex-direction: row; justify-content: space-around;}
+.check{font-family: Arial, Helvetica, sans-serif; font-size: 30px;color: chocolate;}
+.nice{font-size: 20px;font-family: Arial, Helvetica, sans-serif;}
+
+.container-item {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px 50px 80px 80px;
+    width: 700px;
+    flex-basis: 50px;
+    flex-grow: 1;
+}
+
+a:hover {
+    color: orange; 
+    text-decoration:underline;
+    text-shadow: 5px 5px 20px #00e5ff;
+    
+  }
