@@ -4,5 +4,16 @@ h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     h2{font-family: Arial, Helvetica, sans-serif; font-size: 50px; color: mediumseagreen;}
 
     h3{font-size: 30px; color: royalblue;}
+    h4{font-size: 70px; font-family: Arial, Helvetica, sans-serif; color: darkgoldenrod;}
+    ul{font-size: 35px; font-family: Arial, Helvetica, sans-serif;}
 
     p{font-family: 'Times New Roman', Times, serif; font-size: 20px;}
+    .header{font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: darkcyan;}
+    .q{display: flex; flex-direction: row;}
+    .p{display: flex; flex-direction: column;}
+    .me{padding: 30px 150px 30px 100px;}
+    .img{display: flex; justify-content: space-around;}
+    a:hover {
+        color: orange; 
+        text-decoration:underline;
+        text-shadow: 5px 5px 20px #00e5ff; }
