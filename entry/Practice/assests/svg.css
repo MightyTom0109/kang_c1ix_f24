@@ -1,0 +1,61 @@
+body {
+    background-color: pink;
+    font-family: arial;
+    color: red;
+    font-size: 100px;
+
+    animation-name: yinyangSpin;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  #yin-yang {
+    height: 500px;
+  }
+
+  @keyframes yinyangSpin {
+    0% {
+      transform: rotate(0turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+    0% {
+		opacity: 1;
+		
+	}
+
+	25% {
+		opacity: 0.5;
+		
+	}
+
+	50% {
+		opacity: 0;
+		
+	}
+
+    75%{ opacity: 0.5;}
+
+    100%{opacity: 1;}
+  }
+  
+  #yin-yang {
+    animation: yinyangSpin 5s ease-out infinite;
+    height:500px;
+  }

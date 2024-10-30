@@ -1,0 +1,9 @@
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.scroll-container img {
+    margin: 10px;
+}
+

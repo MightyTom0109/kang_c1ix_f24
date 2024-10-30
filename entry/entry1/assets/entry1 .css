@@ -3,7 +3,15 @@ h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 h2{font-family: Arial, Helvetica, sans-serif;color: darkseagreen;font-size: 50px; }
 
 .header{font-family: Arial, Helvetica, sans-serif; color: orangered;font-size: 40px;}
-.game{font-family: fantasy; color: blueviolet; font-size: 75px;text-align: center; padding: 30px;border:30px dotted yellow;}
+.game{font-family: fantasy; color: blueviolet; font-size: 75px;text-align: center; padding: 30px;border:30px dotted rgb(71, 255, 80);
+    background-color: white;
+	margin: 0;
+	animation-name: bgColor-time-change;
+	animation-duration: 8s;
+	animation-fill-mode: forward;
+	animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; }
+
 .description{font-family: Arial, Helvetica, sans-serif;font-size: 40px;text-align: center;color: blueviolet;}
 .table{padding: 10px 50px 50px 50px;}
 .para{font-family: 'Times New Roman', Times, serif; font-size: 22px;text-wrap: wrap;}
@@ -12,7 +20,8 @@ h2{font-family: Arial, Helvetica, sans-serif;color: darkseagreen;font-size: 50px
 .text{display: flex; flex-direction: row; justify-content: space-around;}
 .check{font-family: Arial, Helvetica, sans-serif; font-size: 30px;color: chocolate;}
 .nice{font-size: 20px;font-family: Arial, Helvetica, sans-serif;}
-
+.margin{margin: 0px 120px 0px 120px ;}
+.content{text-align: center;}
 .container-item {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -20,6 +29,22 @@ h2{font-family: Arial, Helvetica, sans-serif;color: darkseagreen;font-size: 50px
     width: 700px;
     flex-basis: 50px;
     flex-grow: 1;
+}
+
+
+@keyframes bgColor-time-change {
+   
+  0%   {background-color: white;}
+  10%  {background-color: yellow;}
+  20%  {background-color: white;}
+  30%  {background-color: yellow;}
+  40%  {background-color: white;}
+  50%  {background-color: yellow;}
+  60%  {background-color: white;}
+  70%  {background-color: yellow;}
+  80%  {background-color: white;}
+  90%  {background-color: yellow;}
+  100% {background-color: white;}
 }
 
 a:hover {

@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My first HTML page</title>
-  <link rel="stylesheet" type="text/css" href="C:\Users\kangh\Desktop\parsons\kang_c1ix_f24\entry\entry4\assets\entry4.css">
+  <title>Entry 4</title>
+  <link rel="stylesheet" type="text/css" href="assets/entry4.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
 </head>
 
 <body>
@@ -25,10 +26,10 @@
 <br><br><br><br>
 
 </div>
-
+<div class="margin">
 <h2 id="1">Dragon Ball Z</h2>
 
-<img src="assets/goku.jpg" alt="dbz" style="width:1550px;height:500px;">
+<img src="assets/goku.jpg" alt="dbz" style="width:1400px;height:500px;" class="img2">
 
 <p>Dragon ball z is where everything started, it is still my favorite anime, and the artworks 
   from Akira toriyama still seem very impressive to me. The art style from this famous artist 
@@ -66,14 +67,86 @@
   <a href="#menu">Resume to Menu </a><br><hr>
 
 <h2 id="3">Learning Professionally</h2>
-<div class="img">
-<img src="assets/g33.jpg" alt="dbz" style="width:250px;height:330px;">
-<img src="assets/g34.jpg" alt="dbz" style="width:250px;height:330px;">
-<img src="assets/g36.jpg" alt="dbz" style="width:250px;height:330px;">
-<img src="assets/g31.jpg" alt="dbz" style="width:250px;height:330px;">
-<img src="assets/g32.jpg" alt="dbz" style="width:250px;height:330px;">
-<img src="assets/g46.jpg" alt="dbz" style="width:250px;height:330px;">
-</div>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="assets/g31.jpg" style="width: 600px; height: 700px;" class="skt">
+    <div class="text">Caption Text</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="assets/g32.jpg" style="width: 600px; height: 700px;" class="skt">
+    <div class="text">Caption Two</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="assets/g33.jpg" style="width: 600px; height: 700px;" class="skt">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="assets/g34.jpg" style="width: 600px; height: 700px;" class="skt">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="assets/g35.jpg" style="width: 600px; height: 700px;" class="skt">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="assets/g36.jpg" style="width: 600px; height: 700px;" class="skt">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>  
 
 <p>After some time drawing anime characters using colored pencils, I have found some significant issues. 
   As a kid I really wanted to shine in the class, and my drawings did help me a lot, but at some point I 
@@ -123,7 +196,7 @@
 
   <h3>Yair Sasson Art</h3>
 
-  <img src="assets/yair.jpg" alt="dbz" style="width:1550px;height:300px;">
+  <img src="assets/yair.jpg" alt="dbz" style="width:1400px;height:300px;" class="img2">
 
   <p>This is a little story about me discovering an anime drawing channel on youtube, where he makes tons of anime drawings 
     using markers, mostly and they look very realistic in terms of resembling the looks in the actual show. The main focus of 
@@ -131,7 +204,7 @@
     wanted to achieve his level of anime drawing someday. I even purchased the same drawing materials as him, and began to mimic 
     some of his drawings. </p>
 
-  <a href="https://www.youtube.com/@YairSassonArt" target="_blank">This is the link to the channel</a>
+  <a href="https://www.youtube.com/@YairSassonArt" target="_blank">This is the link to the channel</a><br><br>
 
   <a href="#menu">Resume to Menu </a><br><hr>
 <h2 id="5">My improvements</h2>
@@ -200,6 +273,6 @@ general I am more comfortable with communicating my thoughts visually. </p>
   <p class="comment">Feel free to leave a comment and share your thoughts on the website or the story in general</p> <br><br>
   <input type="text" value="default value that goes on and on without stopping or punctuation" style="width: 300px;height: 150px;">
 
-
+</div>
 </body>
 </html>
