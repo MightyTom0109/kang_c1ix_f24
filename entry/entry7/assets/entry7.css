@@ -1,0 +1,25 @@
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(167, 61, 224);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 0 auto;}
+
+h2{font-family: Arial, Helvetica, sans-serif;font-size: 40px;}
+h3{font-family: Arial, Helvetica, sans-serif;font-size: 30px;}
+h4{font-family: 'Times New Roman', Times, serif; padding: 0px 0px 0px 100px;font-size: 20px;}
+p{font-family: 'Times New Roman', Times, serif; font-size: 18px; padding: 0px 0px 0px 100px ;}
+
+.margin{margin: 0px 200px 0px 200px;}
+.img{display: flex;flex-direction: row;} 
+
+a:hover {
+    color: orange; 
+    text-decoration:underline;
+    text-shadow: 5px 5px 20px #00e5ff; }
+
+.header{font-family: Arial, Helvetica, sans-serif; font-size: 30px;padding: 0px 0px 100px 0px ;}
+.matsuoka{background-image: linear-gradient(to right, white , rgb(255, 206, 114), white);}
+.koyasu{background-image: linear-gradient(to right, white , rgb(255, 255, 114), white);}
+.kamiya{background-image: linear-gradient(to right, white , rgb(255, 151, 184), white);}
+.rie{background-image: linear-gradient(to right, white , rgb(231, 153, 254), white);}
+.rica{background-image: linear-gradient(to right, white , rgb(143, 178, 254), white);}
+.kensho{background-image: linear-gradient(to right, white , rgb(154, 252, 255), white);}
+.daisuke{background-image: linear-gradient(to right, white , rgb(157, 253, 184), white);}
+.masako{background-image: linear-gradient(to right, white , rgb(157, 179, 253), rgb(255, 176, 126),rgb(157,179,253),white);}

@@ -11,10 +11,10 @@ h4{font-family: 'Times New Roman', Times, serif; font-size: 20px;}
 .header{font-family: Arial, Helvetica, sans-serif; font-size: 35px;}
 .cont{display: flex; flex-direction: row-reverse;}
 .list{display: flex; flex-direction: column;}
-.para{display: flex; flex-direction: row;}
-.poke{padding: 0px 30px 0px 0px ;}
-a{color: rgb(54, 98, 63); text-decoration: none;}
+.para{display: flex; flex-direction: row; }
+.poke{padding: 0px 30px 30px 0px ;}
 
+a{color: rgb(54, 98, 63); text-decoration: none;}
 
 
 a:hover {
@@ -23,3 +23,9 @@ a:hover {
     text-shadow: 5px 5px 20px #00e5ff;
     
   }
+  #more {display: none;}
+  #more2 {display: none;}
+  #more3 {display: none;}
+  #more4 {display: none;}
+  #more5 {display: none;}
+  #more6 {display: none;}

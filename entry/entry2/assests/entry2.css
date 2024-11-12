@@ -29,7 +29,8 @@ p{font-size: 20px; font-family: 'Times New Roman', Times, serif;}
 .image{padding:0px 50px 0px 150px; display: flex; flex-direction: column;}
 .haha{display: flex; flex-direction: column; }
 .hahaha{display: flex; flex-direction: row; ;}
-.image2{padding: 0px 0px 0px 200px;}
+.image2{padding: 0px 0px 0px 100px;}
+.margin{margin: 0px 0px 0px 120px;}
 
 a:hover {
     color: orange; 

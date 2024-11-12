@@ -7,7 +7,7 @@ h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     h4{font-size: 70px; font-family: Arial, Helvetica, sans-serif; color: darkgoldenrod;}
     ul{font-size: 35px; font-family: Arial, Helvetica, sans-serif;}
 
-    p{font-family: 'Times New Roman', Times, serif; font-size: 20px;}
+    p{font-family: 'Times New Roman', Times, serif; font-size: 20px;padding: 30px;}
     .header{font-family: Arial, Helvetica, sans-serif; font-size: 35px; color: darkcyan;}
     .q{display: flex; flex-direction: row;}
     .p{display: flex; flex-direction: column;}
@@ -16,6 +16,7 @@ h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     .img2{display: flex; justify-content: center;}
     .margin{margin: 0px 120px 0px 120px;}
     .skt{padding: 0px 0px 0px 100px }
+    .para{display: flex; flex-direction: row;}
 
     a:hover {
         color: orange; 

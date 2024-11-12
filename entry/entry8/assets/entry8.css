@@ -1,0 +1,8 @@
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(61, 164, 224);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 0 auto;}
+
+    .xyz{display: flex; flex-direction: column; align-items: center;}
+    .pokemon{display: flex; justify-content: space-around;}
+
+    .dandan{border: 2px solid black;}
+   
