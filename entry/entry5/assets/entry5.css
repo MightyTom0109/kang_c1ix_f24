@@ -1,5 +1,5 @@
 h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(224, 61, 61);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 0 auto;}
+    color: rgb(224, 61, 61);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 100px 0px 0px 0px;}
 
 h2{font-family: Arial, Helvetica, sans-serif;font-size: 40px; color: darkviolet;}
 p{font-family: 'Times New Roman', Times, serif;font-size: 20px; }
@@ -29,3 +29,31 @@ a:hover {
   #more4 {display: none;}
   #more5 {display: none;}
   #more6 {display: none;}
+
+  .entry {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .entry a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .entry a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .entry a.active {
+    background-color:rgb(224, 61, 61);
+    color: white;
+  }

@@ -4,7 +4,7 @@ table, th, td {
     border-collapse: collapse;
 }
 h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(67, 207, 184);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 0 auto;}
+    color: rgb(67, 207, 184);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 100px 0px 0px 0px;}
 h3{font-family: Arial, Helvetica, sans-serif; color: blue; text-align: center;}
 h2{font-family: Arial, Helvetica, sans-serif; font-size: 50px;}
 
@@ -47,3 +47,39 @@ a:hover {
     flex-basis: 50px;
     flex-grow: 1;
 }
+
+a:hover {
+    color: orange; 
+    text-decoration:underline;
+    text-shadow: 5px 5px 20px #00e5ff;
+    
+  }
+
+  .entry {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .entry a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .entry a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .entry a.active {
+    background-color: rgb(67, 207, 184);
+    color: white;
+  }
+  
