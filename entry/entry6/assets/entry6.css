@@ -112,4 +112,4 @@ section.highlight { /* When the class is applied with JS! */
 	display: block;
   }
 
-  .entry{font-size: 50px; font-family: Arial, Helvetica, sans-serif; }
+  .entry{ font-family: Arial, Helvetica, sans-serif; }
