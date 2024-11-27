@@ -111,3 +111,5 @@ section.highlight { /* When the class is applied with JS! */
   .dropdown:hover .dropdown-content {
 	display: block;
   }
+
+  .entry{font-size: 50px; font-family: Arial, Helvetica, sans-serif; }

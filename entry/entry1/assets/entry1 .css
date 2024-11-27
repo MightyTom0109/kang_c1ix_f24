@@ -53,7 +53,7 @@ a:hover {
     text-shadow: 5px 5px 20px #00e5ff;
     
   }
-
+  .entry{font-size: 50px; font-family: Arial, Helvetica, sans-serif; }
   .entry {
     overflow: hidden;
     background-color: #333;
