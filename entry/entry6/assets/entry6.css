@@ -83,7 +83,7 @@ section.highlight { /* When the class is applied with JS! */
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-	background-color: red;
+	background-color:  rgb(224, 61, 205);
   }
   
   .dropdown-content {
