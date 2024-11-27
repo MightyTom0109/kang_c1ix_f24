@@ -5,30 +5,39 @@ h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
    
 
-.entry {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+    a:hover {
+      color: orange; 
+      text-decoration:underline;
+      text-shadow: 5px 5px 20px #00e5ff;
+      
+    }
+  
+    .entry {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    .entry a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .entry a:hover {
+      background: #f1f1f1;
+      color: black;
+    }
+    
+    .entry a.active {
+      background-color: rgb(234, 24, 182);
+      color: white;
+    }
+    
 
-.entry a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.entry a:hover {
-  background: #f1f1f1;
-  color: black;
-}
-
-.entry a.active {
-  background-color: rgb(234, 24, 182);
-  color: white;
-}

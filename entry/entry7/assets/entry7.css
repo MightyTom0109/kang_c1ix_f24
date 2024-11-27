@@ -51,3 +51,26 @@ a:hover {
     background-color:  rgb(167, 61, 224);
     color: white;
   }
+
+  .vertical-menu {
+    width: 200px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .vertical-menu a {
+    background-image: linear-gradient(to right, rgb(167, 61, 224), white);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #10c0f0;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
