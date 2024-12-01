@@ -1,10 +1,10 @@
-h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1{font-family: flying;
     color: rgb(234, 136, 24);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 100px 0px 0px 0px;}
 
     h2{font-family: Arial, Helvetica, sans-serif; font-size: 50px; color: mediumseagreen;}
 
     h3{font-size: 30px; color: royalblue;}
-    h4{font-size: 70px; font-family: Arial, Helvetica, sans-serif; color: darkgoldenrod;}
+    h4{font-size: 40px; font-family: Arial, Helvetica, sans-serif; color: darkgoldenrod;margin: 50px 0px 0px 120px;}
     ul{font-size: 35px; font-family: Arial, Helvetica, sans-serif;}
 
     p{font-family: 'Times New Roman', Times, serif; font-size: 20px;padding: 30px;}
@@ -144,3 +144,8 @@ img {vertical-align: middle;}
 }
 
 .entry{font-size: 50px; font-family: Arial, Helvetica, sans-serif; }
+
+@font-face {
+  font-family: flying;
+  src: url(Black\ Spirit.ttf);
+}

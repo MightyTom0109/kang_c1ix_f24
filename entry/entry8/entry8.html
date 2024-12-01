@@ -6,11 +6,12 @@
   <title>Entry 8</title>
   <link rel="stylesheet" type="text/css" href="assets/entry8.css">
   <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-  <div class="entry">
+  <div class="topnav" id="myTopnav">
     <a href="https://mightytom0109.github.io/kang_c1ix_f24/">Home </a>
     <a href="https://mightytom0109.github.io/kang_c1ix_f24/entry/entry1/entry1.html" >Entry 1 </a>
     <a href="https://mightytom0109.github.io/kang_c1ix_f24/entry/entry2/entry2.html">Entry 2 </a>
@@ -22,8 +23,22 @@
     <a href="https://mightytom0109.github.io/kang_c1ix_f24/entry/entry8/entry8.html" class="active">Entry 8 </a>
     <a href="https://mightytom0109.github.io/kang_c1ix_f24/entry/entry9/entry9.html">Entry 9 </a>
     <a href="https://mightytom0109.github.io/kang_c1ix_f24/entry/entry10/entry10.html">Entry 10 </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
 
     </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
     <h1> My Favorite Anime Songs</h1>
 
 
