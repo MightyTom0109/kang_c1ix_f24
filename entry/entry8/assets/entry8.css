@@ -1,4 +1,4 @@
-h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1{font-family: bancor;
     color: rgb(61, 164, 224);font-size: 120px;padding: 30px;text-align: center;      border:10px groove rgb(0, 0, 0);margin: 100px 0px 0px 0px;}
     h2{font-size: 25px;color: rgb(82, 82, 242);}
 
@@ -74,4 +74,9 @@ h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           display: block;
           text-align: left;
         }
+      }
+
+      @font-face {
+        font-family: bancor;
+        src: url(RIMONS.ttf);
       }
